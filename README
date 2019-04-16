@@ -1,0 +1,8 @@
+A short comment on the project I hand in:
+In my project I created a basic machine translation model. I devided the whole process into three parts which resulted in three files that are expected to be run in the following order:
+(1) Preprocessing of data stored in '1_Data_Preprocessing.ipynb'
+(2) Word embedding with Word2Vec stored in '2_Word2Vec_Word_Embedding.ipynb'
+(3) Actual machine translation model stored in '3_Translation_Model.ipynb'
+Each file can be executed separately. To guarantee this there might be some duplications in the code. Also at the beginning of 'Word2Vec.ipynb' and 'Final_Translation_Model.ipynb' I put some basic function to load the previous results of the other files as well as functions to save intermediate results for the reuse in the other files. 
+
+Note on the machine model: Due to a lack of time and no GPU I could not train the model for many training steps. Therefor the accuracy is really bad. I hope this is no problem!
